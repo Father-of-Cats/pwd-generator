@@ -20,3 +20,10 @@ const getKey = [
         return keys.symbol[Math.floor(Math.random() * keys.number.length)];
     }
 ];
+
+function createPassword () {
+    console.log("hurray!");
+};
+function copyPassword () {
+    console.log("BOOOOO")
+}
