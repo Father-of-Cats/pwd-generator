@@ -44,7 +44,15 @@
     color: black;
     margin: 10px 0;
   }
-  
+
+    #other-button{
+      background-image: url(/assets/imgs/smileybutton.jpg.crdownload);
+      background-size: 98%;
+      background-repeat: no-repeat;
+      width: 3rem;
+      height: 3rem;
+  }
+
   .password {
     min-width: 280px;
     color: rgb(199, 199, 199);
