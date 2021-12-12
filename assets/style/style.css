@@ -41,14 +41,12 @@
   .passwordgenbox div {
     display: flex;
     justify-content: space-between;
-    /* background-color: rgba(236,107,150,255); */
     color: black;
     margin: 10px 0;
   }
   
   .password {
     min-width: 280px;
-    /* background-color: rgba(113,189,109,255); */
     color: rgb(199, 199, 199);
   }
   
