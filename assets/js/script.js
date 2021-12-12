@@ -8,15 +8,15 @@ const keys = {
 // checkbox function array
 const getKey = [
     function upperCase() {
-        return keys.upperCase[(Math.random() * keys.upperCase.length)];
+        return keys.upperCase[Math.floor(Math.random() * keys.upperCase.length)];
     },
     function lowerCase() {
-        return keys.lowerCase[(Math.random() * keys.lowerCase.length)]
+        return keys.lowerCase[Math.floor(Math.random() * keys.lowerCase.length)]
     },
     function number() {
-        return keys.number[(Math.random() * keys.number.length)];
+        return keys.number[Math.floor(Math.random() * keys.number.length)];
     },
     function symbol() {
-        return keys.symbol[(Math.random() * keys.number.length)];
+        return keys.symbol[Math.floor(Math.random() * keys.number.length)];
     }
 ];
